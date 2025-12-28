@@ -1,13 +1,49 @@
-# **AOSI — AI Open Systems Interconnection Model**
+# **AOSI - AI Open Systems Interconnection Reference Model**
+
+**Version: 1.0**
 
 **Purpose:**
 AOSI provides a **layered reference model for AI, LLMs, and autonomous agents**, describing the **technical functions required for AI systems to operate reliably, interoperably, and end-to-end**. Each layer provides services to the layer above, forming a **progressive stack from infrastructure to application**.
 
 This model is **implementation-agnostic**, applicable to LLMs, multi-agent systems, federated AI, or hybrid architectures. Security, reliability, and safety are **cross-cutting considerations applied per layer**.
 
----
+<br>
 
-## **Layer 1 — Infrastructure**
+## **Key Principles**
+
+* **Technical, functional layers:** Focuses on **how AI systems operate end-to-end**, not governance or policy.
+* **Service dependency:** Each layer builds upon the previous, enabling progressively higher-level capabilities.
+* **Cross-cutting concerns:** Security, reliability, safety, and transparency are applied **per layer**, not as separate layers.
+* **Implementation-agnostic:** Applicable to LLMs, multi-agent systems, federated AI, hybrid AI, or future architectures.
+* **Progressive abstraction:** Lower layers handle foundational functions; higher layers deliver actionable AI services.
+
+<br>
+
+## **Layer Relationships**
+
+* Each layer **depends on the services of the layer below** and provides functionality to the layer above.
+* The stack progresses from **technical execution foundation (Infrastructure) → core intelligence (Model) → data management → autonomous operation → communication → interface → application delivery**.
+* Cross-cutting concerns such as **security, reliability, transparency, and ethical safeguards** apply within each layer.
+
+<br>
+
+## **AOSI Layer Table**
+
+| Layer | Name           | Function                       | Provides to Layer Above                            |
+| ----- | -------------- | ------------------------------ | -------------------------------------------------- |
+| 1     | Infrastructure | Runtime environment            | Stable, reproducible compute for models            |
+| 2     | Model          | Core intelligence              | Predictive outputs for data and agents             |
+| 3     | Data           | Input/output and training data | Clean, validated data for agents and communication |
+| 4     | Orchestration  | Autonomous agent control       | Safe, coordinated agent behavior                   |
+| 5     | Communication  | Messaging & protocols          | Reliable interaction for interfaces                |
+| 6     | Interface      | Human/system interaction       | Mechanisms for applications to consume AI          |
+| 7     | Application    | End-user AI functionality      | Actionable intelligence and services               |
+
+<br>
+
+## **AOSI Layer Details**
+
+### **Layer 1 - Infrastructure**
 
 **Function:** Provides the execution environment for AI systems.
 
@@ -22,9 +58,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Ensures that AI systems have a trustworthy and stable platform on which all higher-level functions depend.
 
----
+<br>
 
-## **Layer 2 — Model**
+### **Layer 2 - Model**
 
 **Function:** Contains the core intelligence of AI systems.
 
@@ -39,9 +75,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Establishes the foundational intelligence required for all higher-level AI functionality.
 
----
+<br>
 
-## **Layer 3 — Data**
+### **Layer 3 - Data**
 
 **Function:** Manages all inputs, outputs, and training data.
 
@@ -56,9 +92,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Ensures that AI decisions and outputs are grounded in clean, validated, and relevant data.
 
----
+<br>
 
-## **Layer 4 — Orchestration**
+### **Layer 4 - Orchestration**
 
 **Function:** Controls the execution and coordination of autonomous agents.
 
@@ -73,9 +109,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Enables autonomous systems to act reliably and predictably within their defined operational scope.
 
----
+<br>
 
-## **Layer 5 — Communication**
+### **Layer 5 - Communication**
 
 **Function:** Manages inter-system and agent-to-agent messaging.
 
@@ -90,9 +126,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Ensures AI systems can exchange information reliably and efficiently, both internally and externally.
 
----
+<br>
 
-## **Layer 6 — Interface**
+### **Layer 6 - Interface**
 
 **Function:** Human or external system interaction.
 
@@ -106,9 +142,9 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Bridges the technical AI stack with real-world users and applications, enabling practical deployment.
 
----
+<br>
 
-## **Layer 7 — Application**
+### **Layer 7 - Application**
 
 **Function:** Delivers the final AI service or functionality.
 
@@ -122,39 +158,8 @@ This model is **implementation-agnostic**, applicable to LLMs, multi-agent syste
 
 **Purpose:** Represents the ultimate purpose of the AI system: providing actionable intelligence or functionality in a usable form.
 
----
+<br>
 
-## **Layer Relationships**
+## **Summary**
 
-* Each layer **depends on the services of the layer below** and provides functionality to the layer above.
-* The stack progresses from **technical execution foundation (Infrastructure) → core intelligence (Model) → data management → autonomous operation → communication → interface → application delivery**.
-* Cross-cutting concerns such as **security, reliability, transparency, and ethical safeguards** apply within each layer.
-
----
-
-## **Summary Table**
-
-| Layer | Name           | Function                       | Provides to Layer Above                            |
-| ----- | -------------- | ------------------------------ | -------------------------------------------------- |
-| 1     | Infrastructure | Runtime environment            | Stable, reproducible compute for models            |
-| 2     | Model          | Core intelligence              | Predictive outputs for data and agents             |
-| 3     | Data           | Input/output and training data | Clean, validated data for agents and communication |
-| 4     | Orchestration  | Autonomous agent control       | Safe, coordinated agent behavior                   |
-| 5     | Communication  | Messaging & protocols          | Reliable interaction for interfaces                |
-| 6     | Interface      | Human/system interaction       | Mechanisms for applications to consume AI          |
-| 7     | Application    | End-user AI functionality      | Actionable intelligence and services               |
-
----
-
-### **Key Principles**
-
-1. **Technical, functional layers:** Focuses on **how AI systems operate end-to-end**, not governance or policy.
-2. **Service dependency:** Each layer builds upon the previous, enabling progressively higher-level capabilities.
-3. **Cross-cutting concerns:** Security, reliability, safety, and transparency are applied **per layer**, not as separate layers.
-4. **Implementation-agnostic:** Applicable to LLMs, multi-agent systems, federated AI, hybrid AI, or future architectures.
-5. **Progressive abstraction:** Lower layers handle foundational functions; higher layers deliver actionable AI services.
-
----
-
-💡 **Takeaway:**
 This 7-layer AOSI model provides a **common reference framework** for developers, researchers, and architects to **analyze, design, and discuss AI systems**. It describes the **technical building blocks required to deliver fully functional AI services**, from infrastructure to actionable application outputs.
