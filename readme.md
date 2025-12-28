@@ -4,9 +4,10 @@
 
 Welcome to the **AOSI** (AI Open Systems Interconnection) Reference Landing
 
+![aosi2](https://github.com/user-attachments/assets/2910ea5d-e638-4354-b1d8-aa0712565ef4)
+
 </div>
 
-<br>
 
 ## Intro
 
