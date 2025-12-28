@@ -1,4 +1,4 @@
-# **AOSI — AI Open Systems Interconnection**
+# **AOSI — AI Open Systems Interconnection Model**
 
 **Purpose:**
 AOSI provides a **layered reference model for AI, LLMs, and autonomous agents**, describing the **technical functions required for AI systems to operate reliably, interoperably, and end-to-end**. Each layer provides services to the layer above, forming a **progressive stack from infrastructure to application**.
