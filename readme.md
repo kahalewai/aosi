@@ -75,6 +75,10 @@ By working together, we can ensure AOSI becomes a **practical, widely-adopted re
 <br>
 <br>
 <br>
+<br>
+<br>
 <p align="center">
-▁ ▂ ▄ ▅ ▆ ▇ █   Created with Aloha by Kahalewai - 2025  █ ▇ ▆ ▅ ▄ ▂ ▁
+▁ ▂ ▂ ▃ ▃ ▄ ▄ ▅ ▅ ▆ ▆ Created with Aloha by Kahalewai - 2026 ▆ ▆ ▅ ▅ ▄ ▄ ▃ ▃ ▂ ▂ ▁
+
 </p>
+
