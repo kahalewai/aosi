@@ -25,7 +25,7 @@ The goal of AOSI is simple: create a common vocabulary, common terminology, and 
 
 AOSI provides a **layered reference model for AI, LLMs, and autonomous agents**, describing the **technical functions required for AI systems to operate reliably, interoperably, and end-to-end**. Each layer provides services to the layer above, forming a **progressive stack from infrastructure to application**.
 
-For a detailed breakdown of the 7-layer AOSI model, including technical responsibilities and how each layer builds upon the next, see the full reference document here: [aosi_model.md](./aosi_model.md)
+For a detailed breakdown of the 7-layer AOSI model, including technical responsibilities and how each layer builds upon the next, see the full reference document here: https://github.com/kahalewai/aosi/blob/main/aosi_model.md
 
 <br>
 
