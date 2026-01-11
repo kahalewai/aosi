@@ -71,14 +71,7 @@ We invite **all AI vendors, AI tool developers, and AI organizations** to partic
 3. Open a PR to suggest edits, additions, or clarifications.
 4. Participate in discussions to refine the model collaboratively.
 
-By working together, we can ensure AOSI becomes a **practical, widely-adopted reference** that benefits the whole AI community.
 <br>
-<br>
-<br>
-<br>
-<br>
-<p align="center">
-▁ ▂ ▂ ▃ ▃ ▄ ▄ ▅ ▅ ▆ ▆ Created with Aloha by Kahalewai - 2026 ▆ ▆ ▅ ▅ ▄ ▄ ▃ ▃ ▂ ▂ ▁
 
-</p>
+By working together, we can ensure AOSI becomes a **practical, widely-adopted reference** that benefits the whole AI community.
 
